@@ -25,6 +25,7 @@ main {
   background-color: var(--Pale-blue);
   background-position: top;
   background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   align-items: center;
 }
@@ -32,6 +33,7 @@ main {
 .card {
   width: 90%;
   min-width: 288px;
+  max-width: 315px;
   height: 32rem;
   background-color: white;
   margin: 0 auto;
@@ -46,19 +48,19 @@ main {
   background-image: url("/images/illustration-hero.svg");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: contain;
+  background-size: cover;
 }
 
 .card__body {
   width: 100%;
   min-width: 288px;
   height: auto;
-  padding: 1rem 1.5rem;
+  padding: 1.8rem 1.5rem 1rem;
   text-align: center;
 }
 
 .card__body h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   font-size: 1.6rem;
   font-weight: 900;
   line-height: 2.6rem;
